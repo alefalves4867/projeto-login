@@ -14,7 +14,7 @@
     Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 748px) and (max-width: 992px){
     :root{
         --corf1: #49a09d;
         --corf2: #5f2c82;
