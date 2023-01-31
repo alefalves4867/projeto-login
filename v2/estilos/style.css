@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/* FIRST MOBILE */
+
+/*
+    Paleta de cores
+    Green: #49a09d
+    Lilás: #5f2c82
+*/
+
+/*   Typical Device Breakpoints
+    -----------------------------
+    Pequenas telas: até 600px
+    Celular: de 600px até 768px
+    Tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    Grandes telas: acima de 1200px
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --prm: #49a09d;
+    
+    --sec: #5f2c82;
+    --terc: #99d5d7cd;
+    --quart: #9ddaddcd;
+    --qui: #3b7d7b;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--sec);
+    position: relative;
+}
+
+main {
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.374);;
+}
+
+#imagem {
+    background: black url(../imagens/pexels-haley-black-2087329.jpg);
+    height: 200px;
+    background-size: cover;
+    position: top right;
+    border-radius: 20px 20px 0px 0px ;
+    
+}
+
+#log > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#log > p {
+    padding: 10px;
+}
+
+.data {
+    margin: 10px;
+    background-color: var(--sec);
+    border-radius: 8px;
+}
+
+#ic, #ic2 {
+    color: white;
+    font-size: 1.9em;
+    width: 40px;
+    padding-left: 8px;
+    transform: translateY(5px);
+}
+
+.registro {
+    background-color: var(--terc);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-5px); 
+}
+
+#enviar {
+    margin: 10px;
+}
+
+#enviar > input {
+    background-color: var(--prm);
+    color: white;
+    font-size: 1em;
+    width: 100%;
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#enviar > input:hover {
+    background-color: var(--qui);
+}
+
+#enviar > a {
+    background-color: white;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100%;
+    border: 1px solid var(--prm);
+    border-radius: 4px;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+
+#enviar a:hover {
+    background-color: var(--quart);
+}
+
+#ic3 {
+    color: rgba(0, 0, 0, 0.521);
+    font-size: 0.95em;
+    text-indent: 4px;
+}
