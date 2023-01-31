@@ -96,6 +96,10 @@ main {
     transform: translateY(-5px); 
 }
 
+.registro:focus-within {
+    background-color: white;
+}
+
 
 #enviar {
     margin: 10px;
