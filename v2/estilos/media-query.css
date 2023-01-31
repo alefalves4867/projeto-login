@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/*
+    Paleta de cores
+    Green: #49a09d
+    Lilás: #5f2c82
+*/
+
+/*   Typical Device Breakpoints
+    -----------------------------
+    Pequenas telas: até 600px
+    Celular: de 600px até 768px
+    Tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    Grandes telas: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    :root{
+        --corf1: #49a09d;
+        --corf2: #5f2c82;
+        --terc: #99d5d7cd;
+        --quart: #9ddaddcd;
+        --qui: #3b7d7b;
+    }
+
+    body {
+        background-image: linear-gradient(to top, var(--corf1), var(--corf2));
+        background-attachment: fixed;
+        
+    }
+
+    main {
+        position: absolute;
+        width: 250px;
+        top: 50%;
+        left: 50%;
+        width: 80vw;
+        height: 340px;
+        
+    }
+
+    #imagem {
+        display: inline-block;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;    
+    }
+
+    #log {
+        background-color: white;
+        width: 69%;
+        height: 100%;
+        float: right;
+        border-radius: 20px;
+    }
+
+    h1 {
+        padding: 5px;
+    }
+
+    #enviar > a {
+        padding: 8px;
+    }
+
+    p {
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    :root{
+        --corf1: #49a09d;
+        --corf2: #5f2c82;
+        --terc: #99d5d7cd;
+        --quart: #9ddaddcd;
+        --qui: #3b7d7b;
+    }
+
+    body {
+        background-image: linear-gradient(to top, var(--corf1), var(--corf2));
+        background-attachment: fixed;
+        
+    }
+
+    main {
+        position: absolute;
+        width: 300px;
+        top: 50%;
+        left: 50%;
+        width: 80vw;
+        height: 360px;
+        
+    }
+
+    #imagem {
+        background-image: url(../imagens/pexels-haley-black-2087329.jpg);
+        background-position: right center;
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px 20px 20px 0px;
+        
+    }
+
+    #log {
+        background-color: white;
+        width: 50%;
+        height: 100%;
+        float: left;
+        border-radius: 20px;
+    }
+
+    h1 {
+        padding: 5px;
+    }
+
+    #enviar > a {
+        padding: 7px;
+    }
+    #enviar {
+        margin: 8px;
+    }
+
+    p {
+        padding: 2px;
+    }
+}

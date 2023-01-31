@@ -55,7 +55,7 @@ main {
     background: black url(../imagens/pexels-haley-black-2087329.jpg);
     height: 200px;
     background-size: cover;
-    position: top right;
+    background-position: top right;
     border-radius: 20px 20px 0px 0px ;
     
 }
@@ -93,6 +93,7 @@ main {
     padding: 4px;
     transform: translateY(-5px); 
 }
+
 
 #enviar {
     margin: 10px;
